@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>DnD Content API</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>DnD Monsters</h1>
+      <button onclick="location.href='index.html'">Home</button>
+      <input type="text" id="user-input" placeholder="Filter" />
+      <button onclick="fetchMonster()">Filter</button>
+      <button onclick="fetchMonsters()">All monsters</button>
+      <div id="monsters"></div>
+     </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
